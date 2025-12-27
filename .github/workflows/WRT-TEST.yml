@@ -19,7 +19,7 @@ on:
         options:
          - padavanonly/immortalwrt-mt798x-6.6
       BRANCH:
-        default: 'openwrt-21.2'
+        default: 'openwrt-21.02'
         required: true
         type: string
       PACKAGE:
