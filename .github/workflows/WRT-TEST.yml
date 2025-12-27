@@ -19,7 +19,7 @@ on:
         options:
          - thunder361/immortalwrt-mt798x
       BRANCH:
-        default: 'openwrt-21.02'
+        default: 'immortalwrt-21.02'
         required: true
         type: string
       PACKAGE:
