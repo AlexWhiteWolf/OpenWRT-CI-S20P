@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       CONFIG:
-        default: 'MTK-7986'
+        default: 'TEST'
         required: true
         type: choice
         options:
@@ -17,7 +17,7 @@ on:
         required: true
         type: choice
         options:
-         - padavanonly/immortalwrt-mt798x-6.6
+         - thunder361/immortalwrt-mt798x
       BRANCH:
         default: 'openwrt-21.02'
         required: true
