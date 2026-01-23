@@ -13,13 +13,13 @@ on:
         options:
           - TEST
       SOURCE:
-        default: 'AlexWhiteWolf/immortalwrt-mt798x'
+        default: 'AlexWhiteWolf/MT798X-6.6-24.10'
         required: true
         type: choice
         options:
-         - AlexWhiteWolf/immortalwrt-mt798x
+         - AlexWhiteWolf/MT798X-6.6-24.10
       BRANCH:
-        default: 'immortalwrt-21.02'
+        default: 'openwrt-24.10-6.6'
         required: true
         type: string
       PACKAGE:
